@@ -1,0 +1,30 @@
+.site-sectionje{
+    width: 100%;
+    /*background: linear-gradient(#fff, #f9f9f9);*/
+}
+.col-md-12 > h2{
+    color:  #8F8F8F;
+    font-weight: bold; 
+}
+
+.col-md-12 > p{
+    margin-top: 20px;
+    color: #5C5C5C;
+
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.col-md-5 > h2{
+    color: #385985;
+    font-weight: bold;
+}
+
+.col-md-5 > p{
+    margin-top: 20px;
+    color: #5C5C5C;
+
+    font-size: 1.2em;
+
+  
+}

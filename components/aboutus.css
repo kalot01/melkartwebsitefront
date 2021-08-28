@@ -1,0 +1,21 @@
+.site-section {
+  width: 100%;
+  padding-top: 35px;
+
+  /* background:#f9f9f9;*/
+}
+
+.col-md-7 > h3 {
+  color: #8f8f8f;
+}
+.col-md-7 > h2 {
+  color: #385985;
+  font-weight: bold;
+}
+
+.col-md-7 > p {
+  margin-top: 20px;
+  color: #5c5c5c;
+
+  font-size: 1.2em;
+}

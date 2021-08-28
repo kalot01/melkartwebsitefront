@@ -1,0 +1,18 @@
+.ftco-counters {
+  background-color: #2f5b96;
+}
+.Icon {
+  height: 100px;
+  width: 100px;
+}
+.ftco-counter-label {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  display: block;
+  line-height: 1.5em;
+  letter-spacing: -0.05em;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}

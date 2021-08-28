@@ -1,0 +1,11 @@
+.active{
+    border-bottom: 2px solid gray;
+    color:gray;
+}
+.nav-link:hover{
+    border-bottom: 2px solid gray;
+}
+.nav-link:active{
+    /* for an animation on click */
+    border-bottom: 2px solid gray;
+}

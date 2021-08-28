@@ -1,0 +1,56 @@
+.title1 {
+  color: #385985;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  font-family: "Poppins", "sans-serif";
+}
+.temoignages {
+  position: relative;
+  padding-top: 30px;
+  background: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+@media only screen and (max-width: 768px) {
+  .container-xl {
+    margin-top: 66px;
+  }
+}
+
+.height {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  height: 100%;
+}
+
+.card {
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.card:hover {
+  background-color: #eee;
+}
+
+.ratings i {
+  color: orange;
+}
+
+.testimonial-list {
+  list-style: none;
+}
+
+.testimonial-list li {
+  margin-bottom: 20px;
+}
+
+.testimonials-margin {
+  margin-top: -19px;
+}
+.tem {
+  font-size: 22px;
+}

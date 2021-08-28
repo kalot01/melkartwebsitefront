@@ -1,0 +1,85 @@
+.ftco-practice {
+  z-index: 1000;
+}
+.why-us {
+  height: 300px;
+  position: relative;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  background: rgb(248, 246, 246);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 1%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.why-us strong {
+  font-weight: normal;
+  color: #000;
+}
+.why-us h3 {
+  font-weight: 400;
+}
+.why-us h3 a {
+  color: #2f5b96;
+}
+.why-us .icon {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  display: table;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.why-us .icon i {
+  display: table-cell;
+  vertical-align: middle;
+  height: 70px;
+  font-size: 60px;
+  line-height: 40px;
+  color: #2f5b96;
+}
+.why-us:hover,
+.why-us:focus {
+  background: #5b7299;
+  color: #c5c5c5;
+}
+.why-us:hover {
+  color: #c5c5c5;
+}
+.why-us:hover h3 a,
+.why-us:focus h3 a {
+  color: #fff;
+}
+.why-us:hover .icon i,
+.why-us:focus .icon i {
+  color: #fff;
+}
+.why-us:hover strong,
+.why-us:focus strong {
+  color: #fff;
+}
+
+.animate-box {
+  padding-top: 10px;
+}
+.desc > h3 {
+  font-size: 2rem;
+  padding-bottom: 8px;
+}
+.desc > p:hover {
+  color: #c5c5c5;
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .why-us {
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

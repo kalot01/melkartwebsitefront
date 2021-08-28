@@ -1,0 +1,19 @@
+.card {
+  background-color: rgb(255, 255, 248, 0.6);
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.card:hover {
+  transform: translate(0, -7px);
+}
+.card-title {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  height: 400px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

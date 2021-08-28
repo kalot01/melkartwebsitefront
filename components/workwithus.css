@@ -1,0 +1,184 @@
+.ftco-consult {
+  width: 100%;
+}
+/*.video ftco-video{ 
+    background:url('../assets/img/examples/studio-3.jpg');
+}*/
+
+.formulaire {
+  background-color: #2f5b96;
+}
+.blanc {
+  color: white;
+}
+.form-control {
+  background-color: white;
+  color: black;
+}
+
+.btn-submit {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #fc6571;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+}
+
+.btn-submit:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #fc6571;
+  color: #000;
+}
+
+.btn-submit:after {
+  content: "";
+  background: #fc6571;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.btn-submit:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.btn-submit:focus {
+  outline: 0;
+}
+
+/*/////////////////////////// work with us 2 //////////////////*/
+
+.blue {
+  margin-top: 10vh;
+  height: 25vh;
+  background-color: #385985;
+  cursor: pointer;
+}
+.blue:hover {
+  background-color: #9ca8c1;
+}
+.bluewrapper {
+  width: 100%;
+  padding-top: 20px;
+  display: table;
+  margin: 0 auto;
+}
+
+.bluewrapper > p {
+  line-height: 1.2;
+  color: white;
+}
+
+.p1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: white;
+}
+.p2 {
+  font-size: 2em;
+  font-weight: 300;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .p1 {
+    font-size: 2rem;
+  }
+  .p2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 560px) {
+  .p1 {
+    font-size: 1.5rem;
+  }
+  .p2 {
+    font-size: 1rem;
+  }
+  .bluewrapper {
+    padding-top: 30px;
+  }
+}
+
+/* ///////////////////////////// collab  ////////////////////////////////////////////////*/
+
+.btn-collab {
+  position: relative;
+  padding: 1.4rem 4.2rem;
+  padding-right: 3.1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background-color: transparent;
+  color: #fff;
+  padding: 25px 30px;
+  border-radius: 0;
+  letter-spacing: 1.1rem;
+  
+  width: 70%;
+  font-size: 1.7rem;
+
+  border-width: 3px;
+  border-color: #fff;
+
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  cursor: pointer;
+  user-select: none;
+}
+.btn-collab:hover{
+  background-color: #C5C5C5;
+  color: #5C5C5C;
+}
+.btn-collab:active{
+  color: #fff;
+}
+.btn-collab:focus{
+  color: #fff;
+}
+
+
+
+.container-collab{
+  background-image: url("../assets/img/Bureau20-21(1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  min-height: 400px;
+
+  position: relative;
+
+  padding: 180px 0;
+}
+
+.btn-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -8,7 +8,7 @@ import Temoignage from "../components/temoignage";
 import Partners from "../components/partenaires";
 import Posts from "../components/recentposts";
 import Collab from "../components/collab-withus";
-import StickySM from "../components/stickySM";
+import StickySM from "../components/StickySM";
 
 
 
@@ -43,7 +43,9 @@ export default function Components({posts}) {
           
         <div className="card-group row">
           {(posts.slice(0,2)).map(post => (
-            <Link href={`/${post.Slug}`} key={post.id}>
+            <Link href={`/${post.Slug}`} key={post.id} onClick={()=>{
+              console.log("hiii")
+            }}>
               <div className="col-sm-6">
                 <Posts post={post} />
               </div>            

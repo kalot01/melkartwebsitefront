@@ -61,8 +61,8 @@ import './coordonnees.css';
 						</span>
 
 						<span class="txt3">
-                            (+216)52710698<br></br> - CHEDLY ZOUCHE (Président)<br></br><br></br>
-                            (+216)51840450<br></br> - ESLEM CHIHAOUI (Responsable développement commercial)
+                            (+216)94332117<br></br> - MANEL AZMI (Présidente)<br></br><br></br>
+                            (+216)53616261<br></br> - GHOFRANE ZELFENI (Responsable développement commercial)
 						</span>
 					</div>
 				</div>

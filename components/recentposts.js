@@ -14,9 +14,10 @@ export default function Posts({post}) {
     return(
         <div className="box card justify-content-center shadow-sm p-3 mb-5 rounded-0">
           <div className="row">
-            <div className="col-md-4">
+{post.image[0]?<div className="col-md-4">
                 <img src={API_URL + post.image[0].url} className="w-100" />
-            </div>
+            </div>:<></>}
+            
             <div className="col-md-8 px-3">
                 <div className="card-block px-3">
                   <h3 className="card-title">{post.title}</h3>

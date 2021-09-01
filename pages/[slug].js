@@ -25,6 +25,7 @@ export async function getStaticPaths(){
   
   const res= await fetch(`${API_URL}/posts`);
   const posts = await res.json();
+  console.log(posts);
 
   const paths = posts.map((post) => ({
     params: { slug: post.Slug }

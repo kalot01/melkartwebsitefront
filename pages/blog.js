@@ -3,7 +3,7 @@ import fetch from 'isomorphic-unfetch';
 import Card from '../components/card';
 import Link from "next/link";
 import Router, { useRouter } from "next/router";
-import StickySM from "../components/stickySM";
+import StickySM from "../components/StickySM";
 import Collaborate from "../components/work-with-us2";
 
 export default function blog({posts, page, nbreOfPosts}) {

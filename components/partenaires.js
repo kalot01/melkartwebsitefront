@@ -12,9 +12,9 @@ import UAEC from "../assets/img/partners/UAEC.png";
 import croco from "../assets/img/partners/CrocoCoder.png";
 import StudyTN from "../assets/img/partners/StudyTN.png";
 import LeanPartners from "../assets/img/partners/LeanPartners.png";
-import LeCadeau from "../assets/img/partners/lecadeau.png";
-import Vika from "../assets/img/partners/Vika.png";
-
+import LeCadeau from "../assets/img/partners/leCadeau.png";
+import Vika from "../assets/img/partners/vika.png";
+import leCoach from "../assets/img/partners/lecoach.png";
 
 
 
@@ -59,7 +59,7 @@ export default function Temoignage() {
                     <img className="imagepartner1" src={STC}  width="80%"  alt="Image"/>
                 </div>  
                 <div className="col-md-3 col-sm-3 col-6 card justify-content-center">
-                    <img className="imagepartner2" src={Vika}  width="80%"  alt="Image"/>
+                    <img className="imagepartner2" src={leCoach}  width="80%"  alt="Image"/>
                 </div>
                 <div className="col-md-3 col-sm-3 col-6 card justify-content-center">
                     <img className="imagepartner2" src={crafti}  width="80%"  alt="Image"/>
@@ -69,15 +69,15 @@ export default function Temoignage() {
 
             <div className="row">
             <div className="col-md-3 col-sm-3 col-6 card justify-content-center">
-                    <img className="imagepartner2" src={LeCadeau} width="90%"    alt="Image"/>
+                    <img className="imagepartner2" src={Vika} width="90%"    alt="Image"/>
                 </div>
                 <div className="col-md-3 col-sm-3 col-6 card justify-content-center">
                     <img className="imagepartner2" src={StudyTN} width="90%"   alt="Image"/>
                 </div>
                 <div className="col-md-3 col-sm-3 col-6 card justify-content-center">
-                    <img className="imagepartner2" src={Vika} width="80%" height="75%"   alt="Image"/>
-                </div>
-                <div className="col-md-3 col-sm-3 col-6 card justify-content-center">
+                    <img className="imagepartner" src={LeCadeau} width="90%"   alt="Image"/>
+                </div> 
+                                <div className="col-md-3 col-sm-3 col-6 card justify-content-center">
                     <img className="imagepartner" src={croco} width="90%"   alt="Image"/>
                 </div> 
             </div>

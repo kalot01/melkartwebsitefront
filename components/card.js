@@ -9,11 +9,13 @@ export default function Card({post}) {
 
     <div className="card shadow p-3 mb-5 rounded ">
       
-      <img src={API_URL + post.image[0].url} className="card-img-top" alt={post.title} />
+      {post.image[0]?<img src={API_URL + post.image[0].url} className="card-img-top" alt={post.title} />:<></>}
       <div className="card-body h-100">
         <h3 className="card-title font-weight-bolder text-dark">{post.title}</h3>
         <p className="card-text">{post.description}</p>
-        <a href="#" className="card-link text-muted"><u>Lire la suite</u></a>
+        <a href={"/"+post.Slug} className="card-link text-muted" style={{cursor:"pointer"}} onClick={()=>{
+          console.log("chedly miboun")
+        }}><u>Lire la suite</u></a>
       </div>
 
 

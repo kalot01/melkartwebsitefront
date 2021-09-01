@@ -1,5 +1,5 @@
 import React from "react";
-import "./stickySM.css";
+import "./StickySM.css";
 
 export default function Sticky(){
 
